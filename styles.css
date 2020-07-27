@@ -3,12 +3,13 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    color: #222;
+    color: #fefefe;
+    background-color: #323031;
 }
 
 .navbar {
     padding: .8rem;
-    background-color: #1d3557;
+    background-color: #323031;
 }
 
 .navbar-nav li {
@@ -44,18 +45,22 @@ html, body {
 }
 
 .btn-primary {
-    background-color: #a8dadc;
-    border: 1px solid #a8dadc;
+    background-color: #ffc857;
+    border: 1px solid #ffc857;
+    color: #323031;
 }
 
+
 .btn-primary:hover {
-    background-color: #457b9d;
-    border: 1px solid #457b9d;
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    color: #323031;
 }
 
 .jumbotron {
     padding: 3rem;
     border-radius: 0;
+    background-color: #686868;
 }
 
 .padding {
@@ -144,7 +149,7 @@ html, body {
 }
 
 footer {
-    background-color: #3f3f3f;
+    background-color: #323031;
     color: #d5d5d5;
     padding-top: 2rem;
 }
@@ -165,6 +170,11 @@ footer a {
     width: 100%;
     margin-top: .8rem;
     margin-bottom: 1rem;
+}
+
+.card-body {
+    background-color: #323031;
+
 }
 
 /*---Media Queries --*/
